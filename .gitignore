@@ -1,0 +1,23 @@
+# 密钥与私人文件
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 大文件（模型、数据集不上传）
+*.pth
+*.bin
+*.safetensors
+*.zip
+*.mp4
